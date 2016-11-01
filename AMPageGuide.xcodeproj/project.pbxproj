@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4F256FE61DC8253F00F96DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F256FE51DC8253F00F96DF7 /* AppDelegate.swift */; };
-		4F256FE81DC8253F00F96DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F256FE71DC8253F00F96DF7 /* ViewController.swift */; };
 		4F256FEB1DC8253F00F96DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F256FE91DC8253F00F96DF7 /* Main.storyboard */; };
 		4F256FED1DC8254000F96DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F256FEC1DC8254000F96DF7 /* Assets.xcassets */; };
 		4F256FF01DC8254000F96DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F256FEE1DC8254000F96DF7 /* LaunchScreen.storyboard */; };
 		4F256FFB1DC8254000F96DF7 /* AMPageGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F256FFA1DC8254000F96DF7 /* AMPageGuideTests.swift */; };
 		4F2570061DC8254000F96DF7 /* AMPageGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570051DC8254000F96DF7 /* AMPageGuideUITests.swift */; };
+		4F2570181DC8273400F96DF7 /* AMPageGuide.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F2570141DC8273400F96DF7 /* AMPageGuide.plist */; };
+		4F2570191DC8273400F96DF7 /* AMPageGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570151DC8273400F96DF7 /* AMPageGuide.swift */; };
+		4F25701A1DC8273400F96DF7 /* AMPageGuide.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2570161DC8273400F96DF7 /* AMPageGuide.xcassets */; };
+		4F25701B1DC8273400F96DF7 /* AMPGShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570171DC8273400F96DF7 /* AMPGShadowView.swift */; };
+		4F25701D1DC827AF00F96DF7 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25701C1DC827AF00F96DF7 /* ViewControllerOne.swift */; };
+		4F25701F1DC83D9D00F96DF7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25701E1DC83D9D00F96DF7 /* ViewControllerTwo.swift */; };
+		4F2570211DC840C200F96DF7 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570201DC840C200F96DF7 /* ViewControllerThree.swift */; };
+		4F2570231DC842C200F96DF7 /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570221DC842C200F96DF7 /* ViewControllerFour.swift */; };
+		4F2570251DC85BEF00F96DF7 /* ViewControllerFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570241DC85BEF00F96DF7 /* ViewControllerFive.swift */; };
+		4F2570271DC85E1E00F96DF7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570261DC85E1E00F96DF7 /* TableViewController.swift */; };
+		4F2570291DC85E9700F96DF7 /* ViewControllerSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2570281DC85E9700F96DF7 /* ViewControllerSix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		4F256FE21DC8253F00F96DF7 /* AMPageGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMPageGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F256FE51DC8253F00F96DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F256FE71DC8253F00F96DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F256FEA1DC8253F00F96DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F256FEC1DC8254000F96DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F256FEF1DC8254000F96DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		4F2570011DC8254000F96DF7 /* AMPageGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMPageGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2570051DC8254000F96DF7 /* AMPageGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMPageGuideUITests.swift; sourceTree = "<group>"; };
 		4F2570071DC8254000F96DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2570141DC8273400F96DF7 /* AMPageGuide.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AMPageGuide.plist; sourceTree = "<group>"; };
+		4F2570151DC8273400F96DF7 /* AMPageGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMPageGuide.swift; sourceTree = "<group>"; };
+		4F2570161DC8273400F96DF7 /* AMPageGuide.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AMPageGuide.xcassets; sourceTree = "<group>"; };
+		4F2570171DC8273400F96DF7 /* AMPGShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMPGShadowView.swift; sourceTree = "<group>"; };
+		4F25701C1DC827AF00F96DF7 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		4F25701E1DC83D9D00F96DF7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		4F2570201DC840C200F96DF7 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		4F2570221DC842C200F96DF7 /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
+		4F2570241DC85BEF00F96DF7 /* ViewControllerFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFive.swift; sourceTree = "<group>"; };
+		4F2570261DC85E1E00F96DF7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4F2570281DC85E9700F96DF7 /* ViewControllerSix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,19 @@
 		4F256FE41DC8253F00F96DF7 /* AMPageGuide */ = {
 			isa = PBXGroup;
 			children = (
+				4F2570131DC8273400F96DF7 /* AMPageGuide */,
 				4F256FE51DC8253F00F96DF7 /* AppDelegate.swift */,
-				4F256FE71DC8253F00F96DF7 /* ViewController.swift */,
 				4F256FE91DC8253F00F96DF7 /* Main.storyboard */,
 				4F256FEC1DC8254000F96DF7 /* Assets.xcassets */,
 				4F256FEE1DC8254000F96DF7 /* LaunchScreen.storyboard */,
 				4F256FF11DC8254000F96DF7 /* Info.plist */,
+				4F2570261DC85E1E00F96DF7 /* TableViewController.swift */,
+				4F25701C1DC827AF00F96DF7 /* ViewControllerOne.swift */,
+				4F25701E1DC83D9D00F96DF7 /* ViewControllerTwo.swift */,
+				4F2570201DC840C200F96DF7 /* ViewControllerThree.swift */,
+				4F2570221DC842C200F96DF7 /* ViewControllerFour.swift */,
+				4F2570241DC85BEF00F96DF7 /* ViewControllerFive.swift */,
+				4F2570281DC85E9700F96DF7 /* ViewControllerSix.swift */,
 			);
 			path = AMPageGuide;
 			sourceTree = "<group>";
@@ -123,6 +150,17 @@
 				4F2570071DC8254000F96DF7 /* Info.plist */,
 			);
 			path = AMPageGuideUITests;
+			sourceTree = "<group>";
+		};
+		4F2570131DC8273400F96DF7 /* AMPageGuide */ = {
+			isa = PBXGroup;
+			children = (
+				4F2570141DC8273400F96DF7 /* AMPageGuide.plist */,
+				4F2570151DC8273400F96DF7 /* AMPageGuide.swift */,
+				4F2570161DC8273400F96DF7 /* AMPageGuide.xcassets */,
+				4F2570171DC8273400F96DF7 /* AMPGShadowView.swift */,
+			);
+			path = AMPageGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2570181DC8273400F96DF7 /* AMPageGuide.plist in Resources */,
+				4F25701A1DC8273400F96DF7 /* AMPageGuide.xcassets in Resources */,
 				4F256FF01DC8254000F96DF7 /* LaunchScreen.storyboard in Resources */,
 				4F256FED1DC8254000F96DF7 /* Assets.xcassets in Resources */,
 				4F256FEB1DC8253F00F96DF7 /* Main.storyboard in Resources */,
@@ -262,8 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F256FE81DC8253F00F96DF7 /* ViewController.swift in Sources */,
+				4F25701F1DC83D9D00F96DF7 /* ViewControllerTwo.swift in Sources */,
+				4F2570211DC840C200F96DF7 /* ViewControllerThree.swift in Sources */,
 				4F256FE61DC8253F00F96DF7 /* AppDelegate.swift in Sources */,
+				4F2570191DC8273400F96DF7 /* AMPageGuide.swift in Sources */,
+				4F2570251DC85BEF00F96DF7 /* ViewControllerFive.swift in Sources */,
+				4F25701B1DC8273400F96DF7 /* AMPGShadowView.swift in Sources */,
+				4F2570231DC842C200F96DF7 /* ViewControllerFour.swift in Sources */,
+				4F2570271DC85E1E00F96DF7 /* TableViewController.swift in Sources */,
+				4F25701D1DC827AF00F96DF7 /* ViewControllerOne.swift in Sources */,
+				4F2570291DC85E9700F96DF7 /* ViewControllerSix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +465,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D273CT8444;
 				INFOPLIST_FILE = AMPageGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.linlong.www.AMPageGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anmeng.www.AMPageGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,8 +479,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D273CT8444;
 				INFOPLIST_FILE = AMPageGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.linlong.www.AMPageGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anmeng.www.AMPageGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -38,8 +38,8 @@ import UIKit
 //    ]
 //    ...
 // }
-
-
+//
+//
 // 功能引导key: "页面控制器类名#标示"
 // markViews:  需要标记的view数组 配置信息
 //      tag: view的tag值，需要在代码或interfaceBuilder中设定
@@ -87,7 +87,7 @@ class AMPageGuide: NSObject {
         
         let guideArr = self.guideDict?[keyStr]
         if guideArr == nil {
-            NSLog("AMPageGuide plist file not found")
+            NSLog("AMPageGuide plist file not found or key not found")
             return
         }
         
@@ -128,7 +128,9 @@ class AMPageGuide: NSObject {
     
     
     fileprivate class func titleImage(imgDict:[String:Any])->[String:Any]? {
-        
+        if imgDict.count == 0 {
+            return nil
+        }
         let imageStr = imgDict["image"] as! String
         let image = UIImage(named: imageStr)
         if image == nil {
@@ -174,7 +176,7 @@ class AMPageGuide: NSObject {
             } else if aligment == "center" {
                 x = (vPos?.x)! + (v?.frame.width)!*0.5 - w*0.5
             } else {
-                x = (v?.frame.width)! - w
+                x = (vPos?.x)! + (v?.frame.width)! - w
             }
             y = (vPos?.y)! + (v?.frame.height)!*0.5 - h*0.5
             

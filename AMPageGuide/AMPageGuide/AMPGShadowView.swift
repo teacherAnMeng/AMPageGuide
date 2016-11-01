@@ -16,10 +16,8 @@ class AMPGShadowView: UIView {
     /// 引导按钮，next/know，可以指定按钮，也可以使用默认
     lazy var button:UIButton = { ()->UIButton in
         let btn = UIButton(type: .custom)
-        btn.setBackgroundImage(S_ImageManager.viewImage(name: .roundButtonSel, mode:.resize), for: .normal)
-        
-        btn.setTitleColor(S_ColorManager.priceColor(name: .majBackgroundColor), for: .normal)
-
+        btn.backgroundColor = UIColor.green
+        btn.setTitleColor(UIColor.white, for: .normal)
         btn.setTitle("我知道了", for: .normal)
         btn.adjustsImageWhenHighlighted = false
         return btn
@@ -96,6 +94,7 @@ class AMPGShadowView: UIView {
         }
 
     }
+    
     func showButton() {
         if self.buttonRects == nil || self.currentPageIndex >= (self.buttonRects?.count)! {
             return
