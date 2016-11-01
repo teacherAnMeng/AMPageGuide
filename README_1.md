@@ -1,11 +1,13 @@
 # AMPageGuide
 一个简单易用的功能引导工具，通过绑定控件的tag值定位引导的焦点，通过plist文件进行页面引导的配置
 
+![image](https://raw.githubusercontent.com/teacherAnMeng/AMPageGuide/master/imgs/1.gif)
 
-![image](https://github.com/teacherAnMeng/AMPageGuide/imgs/1.gif)
-![image](https://github.com/teacherAnMeng/AMPageGuide/imgs/2.gif)
-![image](https://github.com/teacherAnMeng/AMPageGuide/imgs/3.gif)
-![image](https://github.com/teacherAnMeng/AMPageGuide/imgs/4.gif)
+![image](https://raw.githubusercontent.com/teacherAnMeng/AMPageGuide/master/imgs/2.gif)
+
+![image](https://raw.githubusercontent.com/teacherAnMeng/AMPageGuide/master/imgs/3.gif)
+
+![image](https://raw.githubusercontent.com/teacherAnMeng/AMPageGuide/master/imgs/4.gif)
 
 
 
